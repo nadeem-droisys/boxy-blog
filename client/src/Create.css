@@ -1,0 +1,41 @@
+.create{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    width: 50%;
+    margin: 2rem auto;
+    justify-content: center;
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.form-element>input{
+    height: 2.4rem;
+    padding-left: 10px;
+}
+.form-element>input:hover{
+    outline: 1px solid blue;
+}
+.form-element>button{
+    padding: 1rem 1rem;
+    color: white;
+    font-size: larger;
+}
+.submit-btn{
+    background-color: green; 
+}
+.clear-btn{
+    background-color: rgb(34, 159, 227); 
+}
+.btn-back-to-home{
+    padding: 7px 10px;
+    background-color: rgb(19, 157, 150);
+}
+.btn-back-to-home>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

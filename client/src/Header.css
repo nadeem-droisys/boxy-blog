@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    background-color: rgb(52, 6, 95);
+    gap: 1rem;
+    align-items: center;
+}
+
+.header>h1,.header>h2{
+    padding: 1rem;
+    color: white;
+}
+.header>h1:hover,.header>h2:hover{
+    background-color: rgb(74, 20, 125);
+}
+.header>h1>a,.header>h2>a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width:400px) {
+    .header>h1{
+        font-size: larger;
+    }
+    .header>h2{
+        font-size: medium;
+    }
+    .header{
+        gap: 0;
+    }
+}
